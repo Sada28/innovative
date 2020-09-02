@@ -121,15 +121,6 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/three" />
-
-        <ImageView
             android:id="@+id/imageView17"
             android:layout_width="104dp"
             android:layout_height="53dp"
@@ -137,13 +128,6 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/rect" />
 
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/three" />
     </LinearLayout>
 
 
