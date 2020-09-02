@@ -22,14 +22,14 @@ public class Mcq2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 op1.setImageResource(R.drawable.redcircle);
-                startActivity(new Intent(Mcq2.this,Mcq3.class));
+                startActivity(new Intent(Mcq2.this,Mcq4.class));
             }
         });
         op2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 op2.setImageResource(R.drawable.redcross);
-                startActivity(new Intent(Mcq2.this,Mcq3.class));
+                startActivity(new Intent(Mcq2.this,Mcq4.class));
 
             }
         });
@@ -37,7 +37,7 @@ public class Mcq2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 op3.setImageResource(R.drawable.redcross);
-                startActivity(new Intent(Mcq2.this,Mcq3.class));
+                startActivity(new Intent(Mcq2.this,Mcq4.class));
 
             }
         });

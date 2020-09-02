@@ -12,7 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Mcq4"></activity>
-        <activity android:name=".Mcq3" />
         <activity android:name=".Mcq2" />
         <activity android:name=".Mcq1" />
         <activity android:name=".Term" />
