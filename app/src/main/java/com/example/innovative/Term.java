@@ -18,8 +18,20 @@ Button btn_term1;
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Term.this,Mcq1.class));
+
+
             }
         });
+        btn_term1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Term.this,.class));
+
+
+            }
+        });
+
+
 
     }
 }
