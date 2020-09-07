@@ -43,7 +43,7 @@ public class Login extends AppCompatActivity {
             public void onClick(View view) {
 
                 //for volly
-                RequestQueue mRequestQueue;
+              /*  RequestQueue mRequestQueue;
                 StringRequest mStringRequest;
                 String url = "https://swapnilsn.000webhostapp.com/innovativelogin.php";
                 //RequestQueue initialized
@@ -88,6 +88,8 @@ public class Login extends AppCompatActivity {
                     }
                 };
                 mRequestQueue.add(mStringRequest);
+
+               */
                 Intent i=new Intent(Login.this,DashBoard.class);
                 startActivity(i);
 

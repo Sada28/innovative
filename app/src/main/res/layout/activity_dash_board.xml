@@ -16,16 +16,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="176dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp" >
+            android:layout_marginEnd="10dp">
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -47,11 +48,10 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
+            android:layout_width="176dp"
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp">
+            android:layout_marginTop="10dp">
 
             <ImageView
                 android:id="@+id/imageView11"
@@ -76,16 +76,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="176dp"
+            android:layout_width="178dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp">
+            android:layout_marginEnd="10dp">
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -107,11 +108,10 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
+            android:layout_width="169dp"
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp" >
+            android:layout_marginTop="10dp">
 
             <ImageView
                 android:id="@+id/imageView14"
@@ -135,16 +135,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="176dp"
+            android:layout_width="184dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp">
+            android:layout_marginEnd="10dp">
 
             <ImageView
                 android:id="@+id/imageView15"
@@ -166,11 +167,10 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
+            android:layout_width="161dp"
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp" >
+            android:layout_marginTop="10dp">
 
             <ImageView
                 android:id="@+id/imageView16"

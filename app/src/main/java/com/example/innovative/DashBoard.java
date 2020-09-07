@@ -14,7 +14,9 @@ public class DashBoard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board);
+        /*
         btn_math = findViewById(R.id.btn_term1);
+
         btn_sci = findViewById(R.id.btn_sci);
         btn_eng=findViewById(R.id.btn_eng);
         btn_math.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +44,9 @@ public class DashBoard extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+         */
+
     }
 
 }
