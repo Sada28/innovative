@@ -25,7 +25,7 @@ Button btn_term1;
         btn_term1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Term.this,.class));
+                startActivity(new Intent(Term.this,Engmcq1.class));
 
 
             }

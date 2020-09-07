@@ -11,7 +11,9 @@
         android:roundIcon="@drawable/inovative"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Engmcq1"></activity>
+        <activity android:name=".mcq5"></activity>
+        <activity android:name=".mcq3" />
+        <activity android:name=".Engmcq1" />
         <activity android:name=".Mcq4" />
         <activity android:name=".Mcq2" />
         <activity android:name=".Mcq1" />
