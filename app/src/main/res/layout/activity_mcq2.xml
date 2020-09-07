@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/dash"
     android:orientation="vertical"
-    tools:context=".Mcq2">
+    tools:context=".Term">
 
     <TextView
         android:id="@+id/textView5"
