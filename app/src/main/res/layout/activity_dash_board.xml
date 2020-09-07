@@ -32,12 +32,20 @@
                 android:layout_marginEnd="70dp"
                 app:cardBackgroundColor="#FB8C00">
 
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginEnd="50dp"
+                    app:srcCompat="@drawable/menu_math" />
+
                 <Button
                     android:id="@+id/btn_term1"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="70dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginEnd="70dp"
                     android:background="@drawable/style"
                     android:text="Math's"
@@ -53,17 +61,26 @@
                 android:layout_marginEnd="70dp"
                 app:cardBackgroundColor="#FB8C00">
 
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginEnd="50dp"
+                    app:srcCompat="@drawable/menu_eng" />
+
                 <Button
                     android:id="@+id/btn_eng"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="70dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginEnd="70dp"
                     android:background="@drawable/style"
                     android:text="English"
                     android:textColor="#F6F1F1"
                     android:textSize="18sp" />
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -74,12 +91,20 @@
                 android:layout_marginEnd="70dp"
                 app:cardBackgroundColor="#FB8C00">
 
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginEnd="70dp"
+                    app:srcCompat="@drawable/menu_hindi" />
+
                 <Button
                     android:id="@+id/btn_term3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="70dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginEnd="70dp"
                     android:background="@drawable/style"
                     android:text="Hindi"
@@ -95,12 +120,20 @@
                 android:layout_marginEnd="70dp"
                 app:cardBackgroundColor="#FB8C00">
 
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="79dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginEnd="70dp"
+                    app:srcCompat="@drawable/menu_marathi" />
+
                 <Button
                     android:id="@+id/btn_term5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="70dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginEnd="70dp"
                     android:background="@drawable/style"
                     android:text="Marathi"
@@ -116,12 +149,20 @@
                 android:layout_marginEnd="70dp"
                 app:cardBackgroundColor="#FB8C00">
 
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginEnd="50dp"
+                    app:srcCompat="@drawable/menu_science" />
+
                 <Button
                     android:id="@+id/btn_sci"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="70dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginEnd="70dp"
                     android:background="@drawable/style"
                     android:text="Science"
@@ -137,12 +178,20 @@
                 android:layout_marginEnd="70dp"
                 app:cardBackgroundColor="#FB8C00">
 
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginEnd="50dp"
+                    app:srcCompat="@drawable/menu_gk" />
+
                 <Button
                     android:id="@+id/btn_gk"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
                     android:layout_marginStart="70dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginEnd="70dp"
                     android:background="@drawable/style"
                     android:text="Gk"
