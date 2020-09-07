@@ -8,26 +8,10 @@
     android:orientation="vertical"
     tools:context=".Mcq4">
 
-    <TextView
-        android:id="@+id/textView3"
+    <ImageView
+        android:id="@+id/imageView13"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center"
-        android:text="A. Fill in the blank.(solve Any 4) "
-        android:textColor="#FD0000"
-        android:textSize="25dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center"
-        android:text="   (4 marks)"
-        android:textColor="#000000"
-        android:textSize="25dp" />
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/inovative1" />
 
 </LinearLayout>
