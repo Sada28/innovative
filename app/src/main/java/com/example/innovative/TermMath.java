@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Term extends AppCompatActivity {
+public class TermMath extends AppCompatActivity {
 Button btn_term1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ Button btn_term1;
         btn_term1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Term.this,Mcq1.class));
+                startActivity(new Intent(TermMath.this,Mcq1.class));
 
 
             }

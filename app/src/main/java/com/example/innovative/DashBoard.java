@@ -18,7 +18,7 @@ public class DashBoard extends AppCompatActivity {
         btn_math.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i =new Intent(DashBoard.this,Term.class);
+                Intent i =new Intent(DashBoard.this, TermMath.class);
                 startActivity(i);
             }
         });

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/dash"
     android:orientation="vertical"
-    tools:context=".Term">
+    tools:context=".TermMath">
 
     <TextView
         android:id="@+id/textView5"
