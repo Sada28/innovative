@@ -14,131 +14,91 @@
         android:layout_height="132dp"
         app:srcCompat="@drawable/inovative1" />
 
-
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:layout_marginBottom="20dp">
+        android:layout_height="150dp"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal">
 
-        <LinearLayout
+        <androidx.cardview.widget.CardView
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#E87500">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/style"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="1 Term"
+                android:textSize="20dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#E87500">
 
-            <androidx.cardview.widget.CardView
+            <Button
+                android:id="@+id/button2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="100dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="70dp">
+                android:layout_height="61dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/style"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="2 Term"
+                android:textSize="20dp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
 
-                <Button
-                    android:id="@+id/btn_term1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="70dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="70dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/style"
-                    android:fontFamily="@font/arbutus_slab"
-                    android:text="Term 1"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp" />
-            </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
 
-            <androidx.cardview.widget.CardView
+        <androidx.cardview.widget.CardView
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#E87500">
+
+            <Button
+                android:id="@+id/button3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="100dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="70dp">
+                android:layout_height="62dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/style"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="3 Term"
+                android:textSize="20dp" />
+        </androidx.cardview.widget.CardView>
 
-                <Button
-                    android:id="@+id/btn_eng"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="70dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="70dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/style"
-                    android:fontFamily="@font/arbutus_slab"
-                    android:text="Term 2"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp" />
-            </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#E87500">
 
-            <androidx.cardview.widget.CardView
+            <Button
+                android:id="@+id/button4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="100dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="70dp">
-
-                <Button
-                    android:id="@+id/btn_term4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="70dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="70dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/style"
-                    android:fontFamily="@font/arbutus_slab"
-                    android:text="Term 4"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="100dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="70dp">
-
-                <Button
-                    android:id="@+id/btn_term3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="70dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="70dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/style"
-                    android:fontFamily="@font/arbutus_slab"
-                    android:text="Term 3"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/btn_term5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="100dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="70dp">
-
-                <Button
-                    android:id="@+id/btn_term5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="70dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="70dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/style"
-                    android:fontFamily="@font/arbutus_slab"
-                    android:text="Term 5"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    tools:ignore="DuplicateIds" />
-            </androidx.cardview.widget.CardView>
-        </LinearLayout>
-    </ScrollView>
+                android:layout_height="69dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/style"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="4 Term"
+                android:textSize="20dp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
 
 
 </LinearLayout>
