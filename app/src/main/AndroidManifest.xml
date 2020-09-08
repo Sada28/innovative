@@ -11,7 +11,9 @@
         android:roundIcon="@drawable/inovative"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TermSci"></activity>
+        <activity android:name=".Commcq1"></activity>
+        <activity android:name=".Scimcq1" />
+        <activity android:name=".TermSci" />
         <activity android:name=".TermCom" />
         <activity android:name=".TermMar" />
         <activity android:name=".TermHindi" />

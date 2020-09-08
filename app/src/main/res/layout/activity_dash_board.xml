@@ -48,6 +48,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card"
             android:layout_width="176dp"
             android:layout_height="match_parent"
             android:layout_marginStart="20dp">
@@ -96,7 +97,7 @@
                 app:srcCompat="@drawable/menu_hindi" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btn_hindi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
@@ -120,7 +121,7 @@
                 app:srcCompat="@drawable/menu_marathi" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/btn_mar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
@@ -154,7 +155,7 @@
                 app:srcCompat="@drawable/menu_computer" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/btn_com"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
