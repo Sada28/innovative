@@ -19,7 +19,6 @@
         <activity android:name=".TermHindi" />
         <activity android:name=".TermEng" />
         <activity android:name=".mcq5" />
-        <activity android:name=".mcq3" />
         <activity android:name=".Engmcq1" />
         <activity android:name=".Mcq4" />
         <activity android:name=".Mcq2" />
