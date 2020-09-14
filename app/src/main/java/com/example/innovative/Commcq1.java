@@ -14,17 +14,18 @@ import android.widget.Toast;
 
 import java.util.Random;
 
-public class Commcq1 extends AppCompatActivity {
+public class Commcq1 extends AppCompatActivity implements View.OnClickListener{
 
     Button btn1, btn2, btn3, btn4;
     private Question question = new Question();
     TextView tv1;
     private String answer;
-    private int questionlength=question.questions.length;
+    private int questionlength =question.questions.length;
     Random random;
-    MediaPlayer mp;
+    MediaPlayer mp,mp1;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected  void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_commcq1);
         random = new Random();
@@ -33,7 +34,8 @@ public class Commcq1 extends AppCompatActivity {
         btn3 = findViewById(R.id.btn3);
         btn4 = findViewById(R.id.btn4);
         tv1 = findViewById(R.id.tv1);
-        final MediaPlayer mp= MediaPlayer.create(this,R.raw.correct_answer);
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.right);
+        final MediaPlayer mp1 = MediaPlayer.create(this, R.raw.right);
         btn1.setOnClickListener((View.OnClickListener) this);
         btn2.setOnClickListener((View.OnClickListener) this);
         btn3.setOnClickListener((View.OnClickListener) this);
@@ -44,7 +46,16 @@ public class Commcq1 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //  mp.start();
+
+                  mp.start();
+
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                mp1.start();
 
             }
         });
@@ -52,6 +63,7 @@ public class Commcq1 extends AppCompatActivity {
     }
 
 
+    @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn1:
@@ -70,6 +82,8 @@ public class Commcq1 extends AppCompatActivity {
                 if (btn2.getText()==answer) {
 
                     Toast.makeText(this, "Correct Answer", Toast.LENGTH_SHORT).show();
+
+
                     NextQuestion(random.nextInt(questionlength));
                 }
                 else {
