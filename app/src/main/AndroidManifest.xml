@@ -11,7 +11,13 @@
         android:roundIcon="@drawable/inovative"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Mcq6"></activity>
+        <activity android:name=".Scimcq10"></activity>
+        <activity android:name=".Scimcq9" />
+        <activity android:name=".Scimcq8" />
+        <activity android:name=".Scimcq7" />
+        <activity android:name=".Scimcq6" />
+        <activity android:name=".Scimcq5" />
+        <activity android:name=".Mcq6" />
         <activity android:name=".Scimcq4" />
         <activity android:name=".Mcq5" />
         <activity android:name=".Scimcq3" />
