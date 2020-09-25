@@ -19,9 +19,10 @@
         <activity android:name=".Scimcq5" />
         <activity android:name=".Mcq6" />
         <activity android:name=".Scimcq4" />
-        <activity android:name=".Mcq5" />
+
         <activity android:name=".Scimcq3" />
         <activity android:name=".Scimcq2" />
+        <activity android:name=".Mcq5" />
         <activity android:name=".Mcq4" />
         <activity android:name=".Mcq3" />
         <activity android:name=".Commcq1" />
