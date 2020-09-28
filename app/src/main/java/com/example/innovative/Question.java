@@ -8,6 +8,8 @@ public class Question
             " 3. A machine is a _____ thing.",
             " 4. A computer is a ____ machine.",
             " 5. Some machines such as car and bus need______,diesel,_____or CNG to run.",
+            " 6.  "
+
     };
     private String[][] choices={
             {"Machines","Refrigerator","Home-made","TV"},

@@ -17,7 +17,7 @@ public class Mcq1 extends AppCompatActivity {
         setContentView(R.layout.activity_mcq1);
         op1=findViewById(R.id.op1);
         op2=findViewById(R.id.op2);
-        op3=findViewById(R.id.op3);
+        op3=findViewById(R.id.Opt3);
 
         op1.setOnClickListener(new View.OnClickListener() {
             @Override
